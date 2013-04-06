@@ -12,6 +12,7 @@ PRODUCT_PACKAGES += \
     LatinImeDictionaryPack \
     Microbes \
     PerformanceControl \
+    PermissionsManager \
     ROMControl \
     Superuser \
     su \
