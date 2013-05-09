@@ -56,6 +56,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     openvpn \
     e2fsck \
+    extract \
     mke2fs \
     tune2fs \
     libssh \
@@ -64,7 +65,8 @@ PRODUCT_PACKAGES += \
     sshd-config \
     ssh-keygen \
     sftp \
-    scp
+    scp \
+    unrar
 
 # Default ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
