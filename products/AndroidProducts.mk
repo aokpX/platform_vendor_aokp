@@ -21,6 +21,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/m7tmo.mk \
     $(LOCAL_DIR)/m7ul.mk \
     $(LOCAL_DIR)/maguro.mk \
+    $(LOCAL_DIR)/maguro_en.mk \
     $(LOCAL_DIR)/mako.mk \
     $(LOCAL_DIR)/manta.mk \
     $(LOCAL_DIR)/maserati.mk \
