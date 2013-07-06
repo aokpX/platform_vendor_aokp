@@ -67,7 +67,12 @@ PRODUCT_PACKAGES += \
     ssh-keygen \
     sftp \
     scp \
-    unrar
+    unrar \
+    mount.exfat \
+    fsck.exfat \
+    mkfs.exfat \
+    ntfsfix \
+    ntfs-3g
 
 # Default ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
