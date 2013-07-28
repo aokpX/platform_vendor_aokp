@@ -55,24 +55,24 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
 PRODUCT_PACKAGES += \
-    openvpn \
     e2fsck \
     extract \
-    mke2fs \
-    tune2fs \
+    fsck.exfat \
     libssh \
+    mke2fs \
+    mkfs.exfat \
+    mount.exfat \
+    ntfsfix \
+    ntfs-3g \
+    openvpn \
+    scp \
+    sftp \
     ssh \
     sshd \
     sshd-config \
     ssh-keygen \
-    sftp \
-    scp \
-    unrar \
-    mount.exfat \
-    fsck.exfat \
-    mkfs.exfat \
-    ntfsfix \
-    ntfs-3g
+    tune2fs \
+    unrar
 
 # Default ringtone
 PRODUCT_PROPERTY_OVERRIDES += \
